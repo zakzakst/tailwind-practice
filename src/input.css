@@ -1,0 +1,12 @@
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "./components/card.css"; */
+.card {
+  padding: theme('spacing.4');
+  /* ... */
+}
