@@ -1,3 +1,4 @@
 .card {
   padding: theme('spacing.4');
+  @apply shadow-md shadow-[#50d71e] rounded;
 }
