@@ -1,5 +1,8 @@
 module.exports = {
-  content: ['./dist/**/*.{html,js}'],
+  content: [
+    './dist/**/*.{html,js}',
+    './node_modules/flowbite/**/*.js',
+  ],
   theme: {
     extend: {
       colors: {
@@ -10,7 +13,7 @@ module.exports = {
       },
       borderRadius: {
         DEFAULT: '8px',
-        'lg': '24px',
+        // 'lg': '24px',
       },
       keyframes: {
         wiggle: {
@@ -24,6 +27,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/forms'),
+    // require('@tailwindcss/forms'),
+    require('flowbite/plugin'),
   ],
 }
